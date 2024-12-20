@@ -1,3 +1,4 @@
+'use client'
 import { useQuery } from '@tanstack/react-query'
 import { useEffect, useState } from 'react'
 import { categoryService, type Category } from '../services/category.service'

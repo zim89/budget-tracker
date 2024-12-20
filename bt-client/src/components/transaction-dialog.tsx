@@ -1,3 +1,4 @@
+'use client'
 import { useState } from 'react'
 import { TransactionForm } from './transaction-form'
 import { Button } from './ui/button'

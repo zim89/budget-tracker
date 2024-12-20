@@ -12,6 +12,11 @@ import { TransactionService } from './transaction/transaction.service';
     TypeOrmModule.forRoot({
       type: 'postgres',
       url: process.env.DATABASE_URL,
+      // host: 'localhost',
+      // port: 5432,
+      // username: 'postgres',
+      // password: 'postgres',
+      // database: 'budget_tracker',
       entities: [Category, Transaction],
       synchronize: true,
     }),
